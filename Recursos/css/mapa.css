@@ -1,0 +1,57 @@
+/*	
+	Estilo del mapa que se muestra en la página principal
+ */
+
+#principal{
+	margin: auto;
+}
+
+.map {
+	height: 80%;
+	width: 95%;
+	margin: auto;
+
+}
+
+.tituloMapa {
+	text-shadow: 17px -26px 1px #AEFAAF
+}
+
+
+.mousePosition {
+	position: absolute;
+	top: auto;
+	right: auto;
+	bottom: 5px;
+	left:50%;
+	transform: translateX(-50%);
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding:5px;
+	background-color: rgba(225,225,225,0.6);
+	font-size: 100%;
+}
+
+
+
+div.ol-custom-overviewmap,
+div.ol-custom-overviewmap.ol-uncollapsible {
+	bottom: 0;
+	left: auto;
+	right: 0;
+	top: auto;
+}
+
+div.ol-custom-overviewmap:not(.ol-collapsed)  {
+	border: 1px solid black;
+}
+
+div.ol-custom-overviewmap div.ol-overviewmap-map {
+	border: none;
+	width: 200px;
+}
+
+div.ol-custom-overviewmap div.ol-overviewmap-box {
+	border: 2px solid red;
+}
+

@@ -1,0 +1,85 @@
+/*	
+	Estilo para la muestra en movil o tablet
+ */
+
+/* Movil */
+@media screen and (max-width: 600px){
+
+	#fotoFecha{
+		flex-direction: column;
+	}
+	
+	#contenedor_imagen_altitud{
+		margin-top: 10%;
+	}
+
+
+}
+
+/* Tablet */
+@media screen and (max-width: 1100px){
+
+	#login {
+		width: 50%;
+	}
+
+	.container-nombre{
+		top: 60%;
+		left: 10%;
+		width: 30%
+	}
+	
+	#ortoParcela {
+		width: 100%
+	}
+
+	#fotoFecha {
+		flex-direction: column;
+	}
+
+	#tablas{
+		flex-direction: column;
+	}
+
+	#tabla_1{
+		width: 100%;
+	}
+
+	#tabla_2 {
+		width: 100%;
+	}
+
+	#historico_grafica {
+		flex-direction: column;
+	}
+
+	#tablaHistorica {
+		width: 100%;
+	}
+
+	#filaGrafica {
+		width: 100%;
+	}
+}
+
+
+/* Tablet */
+@media screen and (max-width: 1600px){
+	
+	.row #OrtoImagen {
+		order: 1;
+		width: 100%;
+		margin-bottom: 2%
+	}
+	
+	.row #Informacion {
+		order: 2;
+		width: 100%
+	}
+
+	#fotoFecha {
+		flex-direction: column;
+	}
+	
+}
+
